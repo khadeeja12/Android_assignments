@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+
+    <group android:id="@+id/group1" />
+    <item
+        android:id="@+id/item1"
+        android:title="home"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/item2"
+        android:title="about"
+        tools:ignore="HardcodedText"/>
+
+        <item
+            android:id="@+id/item4"
+            android:title="users"
+            tools:ignore="HardcodedText">
+            <menu >
+                <item
+                    android:id="@+id/item4"
+                    android:title="admin"
+                    tools:ignore="DuplicateIds" />
+                <item
+                    android:id="@+id/item5"
+                    android:title="login" />
+            </menu>
+        </item>
+
+       />
+</menu>
